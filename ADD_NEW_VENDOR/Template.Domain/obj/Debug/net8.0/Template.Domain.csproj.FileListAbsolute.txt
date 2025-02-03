@@ -1,0 +1,12 @@
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\bin\Debug\net8.0\Template.Domain.deps.json
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\bin\Debug\net8.0\Template.Domain.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\bin\Debug\net8.0\Template.Domain.pdb
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.AssemblyInfoInputs.cache
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.AssemblyInfo.cs
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.csproj.CoreCompileInputs.cache
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.sourcelink.json
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\refint\Template.Domain.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\Template.Domain.pdb
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.Domain\obj\Debug\net8.0\ref\Template.Domain.dll

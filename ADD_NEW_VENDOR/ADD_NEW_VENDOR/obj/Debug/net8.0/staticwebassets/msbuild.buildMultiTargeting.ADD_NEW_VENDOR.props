@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ADD_NEW_VENDOR.props" />
+</Project>

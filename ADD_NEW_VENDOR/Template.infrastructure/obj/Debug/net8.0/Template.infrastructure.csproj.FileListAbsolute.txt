@@ -1,0 +1,16 @@
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\bin\Debug\net8.0\Template.infrastructure.deps.json
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\bin\Debug\net8.0\Template.infrastructure.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\bin\Debug\net8.0\Template.infrastructure.pdb
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\bin\Debug\net8.0\Template.Domain.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\bin\Debug\net8.0\Template.Domain.pdb
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.csproj.AssemblyReference.cache
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.AssemblyInfoInputs.cache
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.AssemblyInfo.cs
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.csproj.CoreCompileInputs.cache
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.sourcelink.json
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.17FDBA50.Up2Date
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\refint\Template.infrastructure.dll
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\Template.infrastructure.pdb
+D:\OJT\VendorList Backend\Add-and-List-New-Vendor-Backend-\ADD_NEW_VENDOR\Template.infrastructure\obj\Debug\net8.0\ref\Template.infrastructure.dll

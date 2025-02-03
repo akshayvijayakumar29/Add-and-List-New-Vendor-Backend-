@@ -1,0 +1,6 @@
+@ADD_NEW_VENDOR_HostAddress = http://localhost:5088
+
+GET {{ADD_NEW_VENDOR_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ADD_NEW_VENDOR.props" />
+</Project>
