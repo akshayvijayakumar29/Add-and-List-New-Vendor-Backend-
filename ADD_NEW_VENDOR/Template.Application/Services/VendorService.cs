@@ -8,6 +8,9 @@ using Template.infrastructure.Implementations.Repository;
 
 namespace Template.Application.Services
 {
+    /// <summary>
+    /// handles creation of new vendor
+    /// </summary>
     public class VendorService : IVendorService
     {
         public  VendorRepository _vendorRepository;
@@ -24,7 +27,15 @@ namespace Template.Application.Services
 
         public async Task<Vendor> AddVendorAsync(Vendor vendor)
         {
-            return await _vendorRepository.AddVendorAsync(vendor);
+            try
+            {
+                return await _vendorRepository.AddVendorAsync(vendor);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception if needed
+                return null;
+            }
         }
     }
 }

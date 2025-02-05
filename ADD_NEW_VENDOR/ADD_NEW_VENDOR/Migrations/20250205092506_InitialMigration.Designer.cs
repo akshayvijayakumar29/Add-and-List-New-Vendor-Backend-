@@ -11,7 +11,7 @@ using Template.infrastructure.Implementations.Data;
 namespace ADD_NEW_VENDOR.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250202140719_InitialMigration")]
+    [Migration("20250205092506_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -71,6 +71,11 @@ namespace ADD_NEW_VENDOR.Migrations
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("character varying(20)");
+
+                    b.Property<string>("ServiceType")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("State")
                         .IsRequired()

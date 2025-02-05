@@ -30,7 +30,8 @@ namespace ADD_NEW_VENDOR.Migrations
                     Website = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
                     ContractType = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     VendorConfidence = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    Phone = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false)
+                    Phone = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
+                    ServiceType = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {

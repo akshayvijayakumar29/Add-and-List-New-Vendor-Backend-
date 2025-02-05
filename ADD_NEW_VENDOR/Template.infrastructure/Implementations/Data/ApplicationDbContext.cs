@@ -3,6 +3,13 @@ using Template.Domain.Model;
 
 namespace Template.infrastructure.Implementations.Data
 {
+    /// <summary>
+    /// Configures database schema and validation rules for Vendor entity properties.
+    /// </summary>
+    /// <remarks>
+    /// Defines primary key, sets required fields, and applies length constraints 
+    /// for vendor-related data attributes.
+    /// </remarks>
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
@@ -14,6 +21,8 @@ namespace Template.infrastructure.Implementations.Data
             modelBuilder.Entity<Vendor>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id)
+                .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.VendorName)
                     .IsRequired()
@@ -57,6 +66,11 @@ namespace Template.infrastructure.Implementations.Data
 
                 entity.Property(e => e.VendorConfidence)
                     .HasMaxLength(50);
+
+                entity.Property(e => e.ServiceType)
+                    .HasMaxLength(50);
+
+
             });
         }
     }

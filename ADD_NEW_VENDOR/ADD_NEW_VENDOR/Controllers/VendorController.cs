@@ -14,7 +14,10 @@ namespace ADD_NEW_VENDOR.Controllers
         {
             _vendorService = vendorService;
         }
-
+        /// <summary>
+        /// Api for GET vendors from databse
+        /// </summary>
+        /// <returns></returns>
         // GET: api/vendors
         [HttpGet]
         public async Task<ActionResult<List<Vendor>>> GetVendors()
@@ -23,11 +26,41 @@ namespace ADD_NEW_VENDOR.Controllers
         }
 
         // POST: api/vendors
+        /// <summary>
+        ///  Specifies that the endpoint consumes JSON-formatted data for the request body.
+        /// </summary>
+        /// <remarks>
+        /// for indicate the expected contend is in json format
+        /// </remarks>
+        /// <param name="vendor"></param>
+        /// <returns></returns>
         [HttpPost]
+        [Consumes("application/json")]
         public async Task<ActionResult<Vendor>> AddVendor([FromBody] Vendor vendor)
         {
-            var createdVendor = await _vendorService.AddVendorAsync(vendor);
-            return CreatedAtAction(nameof(GetVendors), new { id = createdVendor.Id }, createdVendor);
+            try
+            {
+                if (vendor == null)
+                {
+                    Console.WriteLine("Received null vendor");
+                    return BadRequest("Vendor data is required");
+                }
+
+                Console.WriteLine($"Received Vendor: {vendor.VendorName}");
+
+                var createdVendor = await _vendorService.AddVendorAsync(vendor);
+                if (createdVendor == null)
+                {
+                    return StatusCode(500, "An error occurred while creating the vendor");
+                }
+
+                return CreatedAtAction(nameof(GetVendors), new { id = createdVendor.Id }, createdVendor);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An unexpected error occurred.");
+            }
         }
+
     }
 }

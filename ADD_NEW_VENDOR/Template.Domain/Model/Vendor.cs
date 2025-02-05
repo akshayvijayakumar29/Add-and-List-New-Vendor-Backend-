@@ -1,13 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Template.Domain.Model
 {
-     public class Vendor
+    /// <summary>
+    /// DatabaseGenerated attribute is used to make the Id auto increment
+    /// </summary>
+    public class Vendor
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string VendorName { get; set; }
         public string StreetAddress1 { get; set; }
@@ -23,5 +30,7 @@ namespace Template.Domain.Model
         public string ContractType { get; set; }
         public string VendorConfidence { get; set; }
         public string Phone { get; set; }
+        public string ServiceType { get; set; }
+
     }
 }

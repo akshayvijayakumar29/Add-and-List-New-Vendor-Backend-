@@ -69,6 +69,11 @@ namespace ADD_NEW_VENDOR.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("character varying(20)");
 
+                    b.Property<string>("ServiceType")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
                     b.Property<string>("State")
                         .IsRequired()
                         .HasMaxLength(100)
