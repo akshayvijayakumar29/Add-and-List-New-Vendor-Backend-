@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ADD_NEW_VENDOR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+195faaa500667f94b87cf344b40eb39310ea6a7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d62ba19e5ed075a3a495c1ff7e52adddaec316")]
 [assembly: System.Reflection.AssemblyProductAttribute("ADD_NEW_VENDOR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ADD_NEW_VENDOR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

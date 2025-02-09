@@ -27,7 +27,6 @@ namespace Template.infrastructure.Implementations.Repository
             catch (Exception ex)
             {
               
-                Console.WriteLine($"Error retrieving vendors: {ex.Message}");
                 return new List<Vendor>();
             }
         }
@@ -36,15 +35,18 @@ namespace Template.infrastructure.Implementations.Repository
         {
             try
             {
+                if (vendor == null)
+                {
+                    throw new ArgumentNullException(nameof(vendor));
+                }
+
                 _context.Vendors.Add(vendor);
                 await _context.SaveChangesAsync();
                 return vendor;
             }
             catch (Exception ex)
             {
-                // exception
-                Console.WriteLine($"Error adding vendor: {ex.Message}");
-                return null;
+                throw; // Re-throw the exception to be handled by the controller
             }
         }
     }

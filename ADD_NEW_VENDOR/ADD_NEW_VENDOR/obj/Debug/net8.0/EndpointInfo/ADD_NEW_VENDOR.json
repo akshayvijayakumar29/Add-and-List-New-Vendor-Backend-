@@ -52,16 +52,6 @@
               "schema": {
                 "$ref": "#/components/schemas/Vendor"
               }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Vendor"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Vendor"
-              }
             }
           }
         },
@@ -152,6 +142,10 @@
             "nullable": true
           },
           "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "serviceType": {
             "type": "string",
             "nullable": true
           }

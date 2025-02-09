@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADD_NEW_VENDOR", "ADD_NEW_VENDOR\ADD_NEW_VENDOR.csproj", "{684FF63D-BD96-400A-BE11-F48B7DA019AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vendor", "ADD_NEW_VENDOR\vendor.csproj", "{684FF63D-BD96-400A-BE11-F48B7DA019AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Domain", "Template.Domain\Template.Domain.csproj", "{7CAB95E6-A83B-43BD-B586-A6A384E243C5}"
 EndProject
